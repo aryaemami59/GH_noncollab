@@ -1,4 +1,9 @@
-def main() -> None:
-    print("Hello World")
+def hello_world(city: str) -> None:
+    print(f"Hello World from {city}")
 
-    main()
+
+def main() -> None:
+    hello_world("NYC")
+
+
+main()
